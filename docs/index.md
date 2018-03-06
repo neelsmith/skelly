@@ -1,12 +1,15 @@
-#  Tutorial documentation
+---
+layout: page
+title: Tutorial documentation
+---
+
+Topics covered:
 
 
+-  [cross building](xbuild)
+-  [API documentation](apidocs)
+-
 
-## API documentation
-
-API documentation was generated with the sbt command
-
-    crossedJVM/doc
 
 ## Tutorial documentation and `ghpages` web site
 
