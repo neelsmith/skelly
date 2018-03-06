@@ -3,34 +3,11 @@ layout: page
 title: Scala project skeleton
 ---
 
-Topics covered:
 
-
--   use of github and bintray
+-   prerequisites:  setting up github and bintray (TBD)
 -   [cross building](xbuild)
--   [API documentation](apidocs)
--
-
-
-## Tutorial documentation and `ghpages` web site
-
-The source for tutorial documentation is defined as `src/main/tut`.  Documentation is generated from sbt with the command
-
-
-    crossedJVM/tut
-
-Output is configured to go into `docs`, which is defined in the github repo's configuration to be the source for `ghpages`.
-
-In addition, the API output in `jvm/target/scala-2.12/api` was then manually added to `docs`.
-
-
-
-## Executable code in tutorial documentation
-
-This block demonstrates that it's possible to execute code automatically while building documentation.
-
-Import the library:
-
-```tut:silent
-import edu.holycross.shot.skelly._
-```
+-   unit testing shared code and JVM- or JS-specific code (TBD)
+-   building [API documentation](apidocs)
+-   building [executable tutorial docs](tut)
+-   publishing docs to ghpages (TBD)
+-   publishing binaries to bintray (TBD)
