@@ -1,12 +1,16 @@
-#  Tutorial documentation
+---
+layout: page
+title: Scala project skeleton
+---
+
+Topics covered:
 
 
+-   use of github and bintray
+-   [cross building](xbuild)
+-   [API documentation](apidocs)
+-
 
-## API documentation
-
-API documentation was generated with the sbt command
-
-    crossedJVM/doc
 
 ## Tutorial documentation and `ghpages` web site
 
