@@ -11,3 +11,9 @@ title: Scala project skeleton
 -   building [executable tutorial docs](tut)
 -   publishing docs to ghpages (TBD)
 -   publishing binaries to bintray (TBD)
+
+
+
+## What's broken
+
+The current `build.sbt` does not cross-build for multiple versions of Scala.

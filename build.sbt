@@ -8,14 +8,14 @@ lazy val root = project.in(file(".")).
     aggregate(crossedJVM, crossedJS).
     settings(
       publish := {},
-      publishLocal := {},
+      publishLocal := {}
     )
 
 lazy val crossed = crossProject.in(file(".")).
     settings(
       name := "skelly",
       organization := "edu.holycross.shot",
-      version := "0.0.4",
+      version := "0.0.7",
       licenses += ("GPL-3.0",url("https://opensource.org/licenses/gpl-3.0.html")),
       libraryDependencies ++= Seq(
         "org.scala-js" %% "scalajs-stubs" % scalaJSVersion % "provided",
