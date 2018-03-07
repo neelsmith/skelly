@@ -33,4 +33,4 @@ lazy val crossed = crossProject.in(file(".")).
     )
 
 lazy val crossedJVM = crossed.jvm.enablePlugins(TutPlugin)
-lazy val crossedJS = crossed.js.enablePlugins(ScalaJSPlugin)
+lazy val crossedJS = crossed.js
