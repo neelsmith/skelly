@@ -11,3 +11,6 @@ title: Scala project skeleton
 -   building [executable tutorial docs](tut)
 -   [publishing docs to ghpages](ghpages)
 -   [publishing binaries to bintray](bintray)
+
+
+Automatically generated [API docs](api)
