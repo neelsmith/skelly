@@ -13,4 +13,4 @@ title: Scala project skeleton
 -   [publishing binaries to bintray](bintray)
 
 
-Automatically generated [API docs](api)
+Automatically generated [API docs](api/edu/holycross/shot/skelly/index.html)
