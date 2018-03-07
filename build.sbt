@@ -1,7 +1,6 @@
 name := "SBT skeleton project"
 
-//crossScalaVersions := Seq("2.10.6","2.11.8", "2.12.3")
-crossScalaVersions := Seq("2.12.3")
+crossScalaVersions in ThisBuild := Seq("2.10.6","2.11.8", "2.12.3")
 scalaVersion := (crossScalaVersions in ThisBuild).value.last
 
 lazy val root = project.in(file(".")).
@@ -32,4 +31,4 @@ lazy val crossed = crossProject.in(file(".")).
     )
 
 lazy val crossedJVM = crossed.jvm.enablePlugins(TutPlugin)
-lazy val crossedJS = crossed.js.enablePlugins(ScalaJSPlugin)
+lazy val crossedJS = crossed.js
