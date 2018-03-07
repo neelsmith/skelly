@@ -1,7 +1,7 @@
 name := "SBT project skeleton"
 
 crossScalaVersions in ThisBuild := Seq("2.10.6","2.11.8", "2.12.4")
-//scalaVersion := (crossScalaVersions in ThisBuild).value.last
+scalaVersion := (crossScalaVersions in ThisBuild).value.last
 
 
 lazy val root = project.in(file(".")).
