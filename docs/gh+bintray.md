@@ -8,5 +8,5 @@ Stuff you have to configure:
 
 
 -   in gh, publish `docs` as ghpages
--   in bintray, make project to publish to
+-   in bintray, make a project to publish to
 -   locally, set up bintray credentials for publishing
